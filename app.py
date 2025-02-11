@@ -7,6 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
+st.set_page_config(page_title="Car Linear Regression Visualisation", page_icon="🚗")
 st.title("Car Linear Regression Visualisation")
 
 # Load dataset
