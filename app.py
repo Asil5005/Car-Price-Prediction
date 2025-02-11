@@ -7,8 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
-st.title("Car Price Prediction App")
-st.write("This app uses a Random Forest model to predict car prices.")
+st.title("Car Linear Regression Visualisation")
 
 # Load dataset
 df = pd.read_csv('CarPricePrediction_clean.csv')
